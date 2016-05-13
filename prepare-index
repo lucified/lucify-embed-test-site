@@ -1,3 +1,4 @@
 #!/bin/bash
 
+rm www/index.html
 ./auto-index www > www/index.html
