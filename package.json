@@ -1,11 +1,16 @@
 {
-  "name": "mock-embed",
+  "name": "lucify-embed-test-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./prepare-index",
+    "start": "npm run-script build && ws -d www"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "local-web-server": "^1.2.5"
+  }
 }
