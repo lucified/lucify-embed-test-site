@@ -1,7 +1,7 @@
 
-# Simple site for testing published Lucify embed codes
+# Test published Lucify embed codes
 
-This project contains a single directory with simple html pages, each for testing a different embed code.
+This project contains a single directory with simple html pages, each for testing a different Lucify embed code.
 
 The purpose of this project is to make it easy to test that previously published embed codes which are in use by third parties remain operational.
 
